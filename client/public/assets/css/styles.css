@@ -1,0 +1,20 @@
+.vertical-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: calc(100vh - 58.4px);
+  /* height: calc(100vh - 70px); */
+}
+
+.button{
+  background-color: #02123e;
+  border-radius: 30px;
+  min-width: 150px;
+  min-height: 47px;
+  height: 100%;
+  width: 80%;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none !important;
+}
